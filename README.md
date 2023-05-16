@@ -16,7 +16,7 @@ The Huffman algorithm is a popular method for lossless data compression. It assi
 
 To illustrate the encoding process, consider an example where the characters 'A', 'B', 'C', and 'D' have the following frequencies: 'A' (4 times), 'B' (2 times), 'C' (1 time), and 'D' (1 time). The Huffman algorithm would construct a tree like this:
 
-    * (root)
+   * (root)
    / \
   A   *
      / \
