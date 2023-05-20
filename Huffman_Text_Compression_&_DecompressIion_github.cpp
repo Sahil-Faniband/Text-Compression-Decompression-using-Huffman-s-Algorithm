@@ -162,7 +162,7 @@ int main(){
     cout<<"-------------------------------------------------------------------"<<endl;
     cout<<"Enter Text for Compression :"<<endl;
     string s;
-    cin>>s;
+    getline(cin,s);
     cout<<"-------------------------------------------------------------------"<<endl;
     vector<pair<char,int> > freq=Freq(s);
     //Prints Frequencys of Characters:-
